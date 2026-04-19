@@ -6,7 +6,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { useEffect, useState } from "react";
-import { isVideoUrl } from "./PostImageSection";
+import { isVideoUrl } from "@/lib/utils";
 import { FiX } from "react-icons/fi";
 
 const ModalMediaItem = ({ src }: { src: string }) => {
